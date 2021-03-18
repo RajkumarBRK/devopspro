@@ -1,0 +1,19 @@
+SVN:
+===
+=>we have to manage repository manually and create an project inside repository
+=>by using check-out , we can get files from repository to local machine
+=>we have to commit your changes once development has been completed ,Because only commited files 
+will be sending them into repository
+=>by using check-in ,we can send files from local to repository
+=>We can distribute only single files ,not for entair workspace
+=>If any other developers want to get updated content in repository then we can take an update everytime
+
+Limitations/con's
+===================
+=>your organization should respnsibilty to manage repository,So we have to recurit seperate admin for that
+=>If we lost connectivty for server ,we can't send files into repository (online )
+=>offline process is not possible 
+=>we can't send/get entair workspace between client and server.
+=>it is difficult to work sampe program for multiple users
+
+git config --global http.sslverify "false"
